@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main leaf shape -->
+    <path d="M256 64C256 64 384 128 384 256C384 384 256 448 256 448C256 448 128 384 128 256C128 128 256 64 256 64Z" 
+          fill="#109640" stroke="#0A7A30" stroke-width="16"/>
+    
+    <!-- Circuit pattern -->
+    <path d="M256 144C256 144 320 184 320 256C320 328 256 368 256 368" 
+          stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-dasharray="16,16"/>
+    <path d="M256 144C256 144 192 184 192 256C192 328 256 368 256 368" 
+          stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-dasharray="16,16"/>
+    
+    <!-- Center circle representing AI/scanning -->
+    <circle cx="256" cy="256" r="48" fill="#FFFFFF"/>
+    <circle cx="256" cy="256" r="32" fill="#109640"/>
+    
+    <!-- Scanning lines -->
+    <line x1="176" y1="256" x2="336" y2="256" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <line x1="256" y1="176" x2="256" y2="336" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg> 

@@ -1,0 +1,35 @@
+name: plant_doctor
+description: A Plant Disease Detection App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+  pdf: ^3.11.3
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  onesignal_flutter: ^5.1.0
+  firebase_core: ^2.25.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
